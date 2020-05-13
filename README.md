@@ -12,10 +12,5 @@ chmod +x webzer.sh
 
 ``` r
 Usage: ./webzer.sh port
-```
-
-## Usage
-
-``` r
 Example: ./webzer.sh 8080
 ```
