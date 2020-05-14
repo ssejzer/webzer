@@ -38,5 +38,5 @@ if [ ${1:-0} -gt 0 ]; then
 	mkfifo pipe 2>/dev/null
 	while true ; do cat pipe | nc -l -p $1 | httpServer pipe; done
 else
-	echo Usage web.sh port
+	echo Usage webzer.sh port
 fi
